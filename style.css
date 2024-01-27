@@ -1,0 +1,214 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.menu-bar{
+    background-color:darkgreen;
+    text-align: center;
+
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color:white;
+}
+.menu-bar ul li{
+    width: 100px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover{
+    background: olivedrab;
+    border-radius:3px;
+
+}
+.menu-bar .fa{
+    margin-right: 8px;
+}
+.menu-bar .fa-solid{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background:  #4CAF50;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color:rgb(72, 200, 255);
+}
+body {
+    background-color: #F5F5F5;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+label {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+select, input[type=number] {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #DDD;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    background-color: #3D5AFE;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #536DFE;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#Laureat, #Prix {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Styles pour les couleurs demandées */
+
+body {
+    background-color: #F5F5F5;
+}
+
+h1, label {
+    color: #333;
+}
+
+select, input[type=number], input[type=submit] {
+    background-color: darkcyan;
+    color: #FFF;
+}
+
+input[type=submit]:hover {
+    background-color: darkgreen;
+}
+
+/* styles pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* styles pour le titre "Prix" */
+.head1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* styles pour le tableau des prix */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* styles pour les boutons */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #3e8e41;
+}
+
+/* styles pour les radios */
+input[type=radio] {
+    margin-right: 10px;
+}
+label {
+    color: darkgreen;
+}
+p {
+  margin: 0 auto; /* met le paragraphe au milieu horizontalement */
+  width: 50%; /* ajuste la largeur du paragraphe */
+  border: 3px rosybrown; /* ajoute une bordure noire de 3px */
+  padding: 10px; /* ajoute un espace intérieur pour la bordure */
+  background-color: firebrick; /* met l'arrière-plan en vert foncé */
+    color: white;
+}
+h3{
+    color: #3e8e41;
+}
+body{
+
+    margin: 0 50px; /* ajoute 50px d'espace à droite et à gauche de body */
+
+    background: linear-gradient(to bottom, #32F7FF, olive);
+}
+
+
+
+
